@@ -4,6 +4,16 @@
 }
 
 #home-p {
-  font-family: sans-serif;
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+}
+
+#result_text {
+  font-family: "DIN Condensed", sans-serif;
+  font-size: 60px;
+}
+
+#home_link {
+  font-family: "Helvetica";
   font-size: 20px;
 }

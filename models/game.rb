@@ -7,17 +7,17 @@ class Game
     when hand1 == hand2
       return "Draw!"
     when hand1 == "rock" && hand2 == "scissors"
-      return "#{hand1} wins"
+      return "Player 1 wins with #{hand1}"
     when hand1 == "scissors" && hand2 == "paper"
-      return "#{hand1} wins"
+      return "Player 1 wins with #{hand1}"
     when hand1 == "paper" && hand2 == "rock"
-      return "#{hand1} wins"
+      return "Player 1 wins with #{hand1}"
     when hand1 == "rock" && hand2 == "paper"
-      return "#{hand2} wins"
+      return "Player 2 wins with #{hand2}"
     when hand1 == "scissors" && hand2 == "rock"
-      return "#{hand2} wins"
+      return "Player 2 wins with #{hand2}"
     when hand1 == "paper" && hand2 == "scissors"
-      return "#{hand2} wins"
+      return "Player 2 wins with #{hand2} wins"
     end
 
   end
